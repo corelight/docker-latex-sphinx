@@ -5,3 +5,4 @@
 [![MIT License](https://img.shields.io/github/license/corelight/docker-latex-sphinx.svg)](./LICENSE)
 
 Documentation generator capable of producing PDFs using LaTeX and Sphinx.
+Also has image-manipulation capability from `graphviz`.
