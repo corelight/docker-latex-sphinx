@@ -12,12 +12,16 @@ RUN apk update && \
       xz && \
     rm /var/cache/apk/*
 
+ENV PATH /opt/texlive/bin/x86_64-linux:$PATH
 ADD texlive.profile /tmp
+
+# eval is required at critical step because install-tl "succeeds with warnings"
+# i.e., finishes with non-zero return code, unhelpfully
 
 RUN cd /tmp && \
   wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz && \
   tar xzf install-tl-unx.tar.gz && \
-  install-tl-*/install-tl --profile /tmp/texlive.profile && \
+  eval install-tl-*/install-tl --profile /tmp/texlive.profile && \
   tlmgr install \
     capt-of \
     cmap \
