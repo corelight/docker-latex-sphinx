@@ -12,6 +12,8 @@ ADD texlive.profile /tmp
 RUN yum update -y && \
     yum install -y \
       gcc \
+      git \
+# git required by Sphinx, oddly
       graphviz \
       make \
       perl \
