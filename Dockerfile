@@ -61,6 +61,7 @@ RUN cd /tmp && \
 # SHELL ["/bin/bash", "-c"]
 
 RUN tlmgr install \
+      bbding \
       bitset \
       capt-of \
       cmap \
