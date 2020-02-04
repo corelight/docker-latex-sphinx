@@ -45,6 +45,7 @@ RUN yum update -y && \
       snowballstemmer==2.0.0 \
       sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
+      sphinx-copybutton==0.2.8 \
       sphinx-rtd-theme==0.1.9 \
       Sphinx==2.2.2 && \
     yum clean all
