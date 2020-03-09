@@ -68,6 +68,7 @@ RUN tlmgr install \
       cmap \
       catchfile \
       collection-fontsrecommended \
+      datetime2 \
       environ \
       eqparbox \
       etoolbox \
