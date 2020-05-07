@@ -22,6 +22,8 @@ RUN yum update -y && \
       python3-pip \
       wget \
       xz && \
+    echo -e "[google-chrome]\nname=google-chrome\nbaseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64\nenabled=1\ngpgcheck=1\ngpgkey=https://dl.google.com/linux/linux_signing_key.pub" > /etc/yum.repos.d/google-chrome.repo && \
+    dnf -y install google-chrome-stable && \
     pip3 install -U \
       alabaster==0.7.12 \
       Babel==2.7.0 \
@@ -37,6 +39,7 @@ RUN yum update -y && \
       Pygments==2.5.2 \
       pyslack==0.3.0 \
       python-dateutil==2.4.2 \
+      python-gitlab==2.2.0 \
       pytz==2019.3 \
       pyyaml==3.12 \
       requests==2.22.0 \
