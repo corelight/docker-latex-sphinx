@@ -80,6 +80,7 @@ RUN tlmgr install \
       fncychap \
       fancyvrb \
       float \
+      fontawesome \
       framed \
       fvextra \
       ifplatform \
