@@ -72,7 +72,9 @@ RUN tlmgr install \
       capt-of \
       cmap \
       catchfile \
+      changepage \
       collection-fontsrecommended \
+      colortbl \
       environ \
       eqparbox \
       etoolbox \
@@ -94,6 +96,7 @@ RUN tlmgr install \
       opensans \
       parskip \
       pdfescape \
+      setspace \
       tabulary \
       threeparttable \
       titlesec \
