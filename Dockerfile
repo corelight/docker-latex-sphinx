@@ -91,6 +91,7 @@ RUN tlmgr install \
       minted \
       multirow \
       needspace \
+      opensans \
       parskip \
       pdfescape \
       tabulary \
