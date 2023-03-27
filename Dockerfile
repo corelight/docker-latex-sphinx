@@ -48,7 +48,7 @@ RUN yum update -y && \
       snowballstemmer==2.0.0 \
       sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
-      sphinx-copybutton==0.2.8 \
+      sphinx-copybutton==0.5.1 \
       sphinx-material==0.0.32 \
       sphinx-panels==0.5.2 \
       sphinx-rtd-theme==0.1.9 \
