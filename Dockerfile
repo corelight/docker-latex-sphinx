@@ -1,5 +1,5 @@
 # Cannot extend corelight/aws-sphinx because texlive compiles *unworking* binaries on Alpine.
-FROM centos:8
+FROM corelight/aws-sphinx
 
 LABEL maintainer="Corelight AWS Team <aws@corelight.com>"
 LABEL description="Heavyweight documentation-builder with python, perl, Sphinx and LaTeX"
