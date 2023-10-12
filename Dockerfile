@@ -1,5 +1,5 @@
 # Cannot extend corelight/aws-sphinx because texlive compiles *unworking* binaries on Alpine.
-FROM rockylinux:9
+FROM rockylinux:8
 
 LABEL maintainer="Corelight AWS Team <aws@corelight.com>"
 LABEL description="Heavyweight documentation-builder with python, perl, Sphinx and LaTeX"
@@ -52,7 +52,7 @@ RUN yum update -y && \
       sphinx-material==0.0.32 \
       sphinx-panels==0.5.2 \
       sphinx-rtd-theme==0.1.9 \
-      Sphinx==6.1.3 && \
+      Sphinx==3.3.0 && \
     yum clean all
 
 # Failover is required at critical step because install-tl "succeeds with warnings",
