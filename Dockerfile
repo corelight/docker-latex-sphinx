@@ -53,7 +53,7 @@ RUN yum update -y && \
       sphinx-design-elements==0.2.1 \
       sphinx-material==0.0.35 \
       sphinx-rtd-theme==0.1.9 \
-      Sphinx==7.2.6 && \
+      Sphinx==7.1.2 && \
     yum clean all
 
 # Failover is required at critical step because install-tl "succeeds with warnings",
