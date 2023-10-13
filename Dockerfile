@@ -49,8 +49,9 @@ RUN yum update -y && \
       sphinxemoji==0.1.4 \
       sphinx-better-theme==0.1.5 \
       sphinx-copybutton==0.5.0 \
-      sphinx-material==0.0.32 \
-      sphinx-panels==0.5.2 \
+      sphinx_design==0.5.0 \
+      sphinx-design-elements==0.2.1 \
+      sphinx-material==0.0.35 \
       sphinx-rtd-theme==0.1.9 \
       Sphinx==7.2.6 && \
     yum clean all
