@@ -26,7 +26,7 @@ RUN yum update -y && \
     dnf -y install google-chrome-stable && \
     pip3 install -U \
       alabaster==0.7.12 \
-      Babel==2.7.0 \
+      Babel==2.12.1 \
       colorama==0.3.3 \
       daemonize==2.3.1 \
       docutils==0.15.2 \
