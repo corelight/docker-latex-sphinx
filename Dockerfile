@@ -42,7 +42,7 @@ RUN yum update -y && \
       python-gitlab==2.2.0 \
       pytz==2019.3 \
       pyyaml==3.12 \
-      requests==2.22.0 \
+      requests==2.28.2 \
       rsa==3.4.2 \
       six==1.13.0 \
       snowballstemmer==2.0.0 \
