@@ -30,7 +30,7 @@ RUN yum update -y && \
       colorama==0.3.3 \
       daemonize==2.3.1 \
       docutils==0.15.2 \
-      imagesize==1.1.0 \
+      imagesize==1.4.1 \
       Jinja2==2.10.3 \
       jmespath==0.7.1 \
       MarkupSafe==1.1.1 \
