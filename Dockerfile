@@ -33,7 +33,7 @@ RUN yum update -y && \
       imagesize==1.4.1 \
       Jinja2==3.1.2 \
       jmespath==0.7.1 \
-      MarkupSafe==1.1.1 \
+      MarkupSafe==2.1.2 \
       passlib==1.6.5 \
       pyasn1==0.1.8 \
       Pygments==2.15.0 \
