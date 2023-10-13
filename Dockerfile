@@ -29,7 +29,7 @@ RUN yum update -y && \
       Babel==2.12.1 \
       colorama==0.3.3 \
       daemonize==2.3.1 \
-      docutils==0.15.2 \
+      docutils==0.19 \
       imagesize==1.4.1 \
       Jinja2==3.1.2 \
       jmespath==0.7.1 \
