@@ -31,7 +31,7 @@ RUN yum update -y && \
       daemonize==2.3.1 \
       docutils==0.15.2 \
       imagesize==1.4.1 \
-      Jinja2==2.10.3 \
+      Jinja2==3.1.2 \
       jmespath==0.7.1 \
       MarkupSafe==1.1.1 \
       passlib==1.6.5 \
