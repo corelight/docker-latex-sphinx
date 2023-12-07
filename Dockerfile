@@ -36,6 +36,7 @@ RUN yum update -y && \
       passlib==1.6.5 \
       pyasn1==0.1.8 \
       Pygments==2.15.0 \
+      PyLaTeX==1.4.2 \
       pyslack==0.3.0 \
       python-dateutil==2.4.2 \
       python-gitlab==2.2.0 \
